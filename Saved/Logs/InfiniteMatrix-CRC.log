@@ -1,0 +1,126 @@
+﻿Log file open, 08/29/24 14:20:12
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogConfig: No local boot hotfix file found at: [/home/shaobo/.config/Epic/CrashReportClient/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogInit: ExecutableName: CrashReportClientEditor
+LogInit: Build: ++UE5+Release-5.4-CL-34507850
+LogInit: Platform=Linux
+LogInit: MachineId=3210268a936e4284a41d3f223da7b847-000003e8
+LogInit: DeviceId=
+LogInit: Engine Version: 5.4.3-34507850+++UE5+Release-5.4
+LogInit: Compatible Engine Version: 5.4.0-33043543+++UE5+Release-5.4
+LogInit: Net CL: 33043543
+LogInit: OS: Ubuntu 22.04.4 LTS (6.8.0-40-generic), CPU: AMD Ryzen 9 7900 12-Core Processor, GPU: NVIDIA GeForce RTX 4080 (NVIDIA UNIX x86_64 Kernel Module  535.183.01  Sun May 12 19:39:15 UTC 2024)
+LogInit: Compiled (64-bit): Jun 20 2024 04:57:45
+LogInit: Architecture: x64
+LogInit: Compiled with Clang: 16.0.6 (github.com/llvm/llvm-project 7cbf1a2591520c2491aa35339f227775f4d3adf6)
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE5+Release-5.4
+LogInit: Command Line:  -Abslog="/home/shaobo/InfiniteMatrixStarterProject/InfiniteMatrixStarter 5.4/Saved/Logs/InfiniteMatrix-CRC.log" -Unattended "/home/shaobo/InfiniteMatrixStarterProject/InfiniteMatrixStarter 5.4/Saved/Crashes/ensureinfo-InfiniteMatrix-pid-4788-8ECA3818630D4EFCB5B52AE5F4B4FF17/"
+LogInit: Base Directory: /home/shaobo/unreal/Linux_Unreal_Engine_5.4.3/Engine/Binaries/Linux/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2024.08.29-19.20.12:767][  0]LogConfig: Set CVar [[memory.MemoryPressureCriticalThresholdMB:512]]
+[2024.08.29-19.20.12:767][  0]LogInit: Unix hardware info:
+[2024.08.29-19.20.12:767][  0]LogInit:  - we are the first instance of this executable
+[2024.08.29-19.20.12:767][  0]LogInit:  - this process' id (pid) is 8864, parent process' id (ppid) is 4788
+[2024.08.29-19.20.12:767][  0]LogInit:  - we are not running under debugger
+[2024.08.29-19.20.12:767][  0]LogInit:  - machine network name is 'shaobo-System-Product-Name'
+[2024.08.29-19.20.12:767][  0]LogInit:  - user name is 'shaobo' (shaobo)
+[2024.08.29-19.20.12:767][  0]LogInit:  - we're logged in locally
+[2024.08.29-19.20.12:767][  0]LogInit:  - we're running with rendering
+[2024.08.29-19.20.12:767][  0]LogInit:  - CPU: AuthenticAMD 'AMD Ryzen 9 7900 12-Core Processor' (signature: 0xA60F12)
+[2024.08.29-19.20.12:767][  0]LogInit:  - Number of physical cores available for the process: 12
+[2024.08.29-19.20.12:767][  0]LogInit:  - Number of logical cores available for the process: 24
+[2024.08.29-19.20.12:767][  0]LogInit:  - GPU Brand Info: NVIDIA GeForce RTX 4080 (NVIDIA UNIX x86_64 Kernel Module  535.183.01  Sun May 12 19:39:15 UTC 2024)
+[2024.08.29-19.20.12:767][  0]LogInit:  - Memory allocator used: Mimalloc
+[2024.08.29-19.20.12:767][  0]LogInit:  - This is an internal build.
+[2024.08.29-19.20.12:767][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_MONOTONIC will be used.
+[2024.08.29-19.20.12:767][  0]LogInit: Unix-specific commandline switches:
+[2024.08.29-19.20.12:767][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2024.08.29-19.20.12:767][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2024.08.29-19.20.12:767][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2024.08.29-19.20.12:767][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2024.08.29-19.20.12:767][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2024.08.29-19.20.12:767][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2024.08.29-19.20.12:767][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2024.08.29-19.20.12:767][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2024.08.29-19.20.12:767][  0]LogInit:  -crashhandlerstacksize - Allows setting crash handler stack sizes (204800)
+[2024.08.29-19.20.12:767][  0]LogInit:  -noexclusivelockonwrite - disables marking files created by the engine as exclusive locked while the engine has them opened
+[2024.08.29-19.20.12:767][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2024.08.29-19.20.12:767][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2024.08.29-19.20.12:767][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2024.08.29-19.20.12:767][  0]LogInit:  -allowsyscallfilterfile=PATH_TO_FILE - sets up a system call filter allow list. any invalid syscall in this list *will* cause a crash
+[2024.08.29-19.20.12:767][  0]LogInit:  - Physical RAM available (not considering process quota): 31 GB (31298 MB, 32049276 KB, 32818458624 bytes)
+[2024.08.29-19.20.12:767][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1
+[2024.08.29-19.20.12:767][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2024.08.29-19.20.12:767][  0]LogInit:  - PageSize 4096
+[2024.08.29-19.20.12:767][  0]LogInit:  - BinnedPageSize 65536
+[2024.08.29-19.20.12:771][  0]LogUObjectArray: 475 objects as part of root set at end of initial load.
+[2024.08.29-19.20.12:771][  0]LogUObjectArray: 0 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2024.08.29-19.20.12:771][  0]LogUObjectAllocator: 80416 out of 0 bytes used by permanent object pool.
+[2024.08.29-19.20.12:771][  0]LogUObjectArray: CloseDisregardForGC: 475/475 objects in disregard for GC pool
+[2024.08.29-19.20.12:771][  0]LogInit: Using OS detected language (en-US).
+[2024.08.29-19.20.12:771][  0]LogInit: Using OS detected locale (en-US).
+[2024.08.29-19.20.12:772][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2024.08.29-19.20.12:788][  0]LogInit: Using OS detected language (en-US).
+[2024.08.29-19.20.12:788][  0]LogInit: Using OS detected locale (en-US).
+[2024.08.29-19.20.12:788][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2024.08.29-19.20.12:788][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2024.08.29-19.20.12:789][  0]LogPackageLocalizationCache: Processed 2 localized package path(s) for 1 prioritized culture(s) in 0.000015 seconds
+[2024.08.29-19.20.12:806][  0]LogInit: Using libcurl 8.4.0
+[2024.08.29-19.20.12:806][  0]LogInit:  - built for x86_64-unknown-linux-gnu
+[2024.08.29-19.20.12:806][  0]LogInit:  - supports SSL with OpenSSL/1.1.1t
+[2024.08.29-19.20.12:806][  0]LogInit:  - supports HTTP deflate (compression) using libz 1.3
+[2024.08.29-19.20.12:806][  0]LogInit:  - other features:
+[2024.08.29-19.20.12:806][  0]LogInit:      CURL_VERSION_SSL
+[2024.08.29-19.20.12:806][  0]LogInit:      CURL_VERSION_LIBZ
+[2024.08.29-19.20.12:806][  0]LogInit:      CURL_VERSION_IPV6
+[2024.08.29-19.20.12:806][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2024.08.29-19.20.12:806][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2024.08.29-19.20.12:806][  0]LogInit:      CURL_VERSION_TLSAUTH_SRP
+[2024.08.29-19.20.12:807][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2024.08.29-19.20.12:807][  0]LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+[2024.08.29-19.20.12:807][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2024.08.29-19.20.12:807][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2024.08.29-19.20.12:807][  0]LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+[2024.08.29-19.20.12:807][  0]LogInit:  - LocalHostAddr = Default
+[2024.08.29-19.20.12:807][  0]LogInit:  - BufferSize = 65536
+[2024.08.29-19.20.12:807][  0]LogInit: CreateHttpThread using FCurlMultiPollEventLoopHttpThread
+[2024.08.29-19.20.12:807][  0]LogAnalytics: Display: [CrashReporter.Release] APIServer = https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data. AppVersion = ++UE5+Release-5.4-CL-34507850
+[2024.08.29-19.20.12:808][  0]CrashReportCoreLog: Display: Applying project settings from '/home/shaobo/InfiniteMatrixStarterProject/InfiniteMatrixStarter 5.4/Saved/Crashes/ensureinfo-InfiniteMatrix-pid-4788-8ECA3818630D4EFCB5B52AE5F4B4FF17/CrashReportClient.ini'.
+[2024.08.29-19.20.12:808][  0]CrashReportCoreLog: CrashReportClientVersion=1.0
+[2024.08.29-19.20.12:808][  0]CrashReportCoreLog: CrashReportReceiver disabled
+[2024.08.29-19.20.12:808][  0]CrashReportCoreLog: DataRouterUrl: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data
+[2024.08.29-19.20.12:808][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
+[2024.08.29-19.20.12:808][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
+[2024.08.29-19.20.12:808][  0]LogCrashDebugHelper: DepotName: //UE5/Release-5.4
+[2024.08.29-19.20.12:808][  0]LogCrashDebugHelper: BuiltFromCL: 34507850
+[2024.08.29-19.20.12:808][  0]LogCrashDebugHelper: EngineVersion: 5.4.3-34507850+++UE5+Release-5.4
+[2024.08.29-19.20.12:808][  0]LogCrashDebugHelper: BuildVersion: ++UE5+Release-5.4-CL-34507850
+[2024.08.29-19.20.13:778][  0]CrashReportCoreLog: Got 4 pending files to upload from 'ensureinfo-InfiniteMatrix-pid-4788-8ECA3818630D4EFCB5B52AE5F4B4FF17'
+[2024.08.29-19.20.13:778][  0]CrashReportCoreLog: State change from Ready to SendingFiles
+[2024.08.29-19.20.13:778][  0]CrashReportCoreLog: CompressAndSendData have 4 pending files
+[2024.08.29-19.20.13:778][  0]CrashReportCoreLog: CompressAndSendData compressing 16843 bytes ('/home/shaobo/InfiniteMatrixStarterProject/InfiniteMatrixStarter 5.4/Saved/Crashes/ensureinfo-InfiniteMatrix-pid-4788-8ECA3818630D4EFCB5B52AE5F4B4FF17/Diagnostics.txt')
+[2024.08.29-19.20.13:778][  0]CrashReportCoreLog: CompressAndSendData compressing 69400 bytes ('/home/shaobo/InfiniteMatrixStarterProject/InfiniteMatrixStarter 5.4/Saved/Crashes/ensureinfo-InfiniteMatrix-pid-4788-8ECA3818630D4EFCB5B52AE5F4B4FF17/CrashContext.runtime-xml')
+[2024.08.29-19.20.13:778][  0]CrashReportCoreLog: CompressAndSendData compressing 214128 bytes ('/home/shaobo/InfiniteMatrixStarterProject/InfiniteMatrixStarter 5.4/Saved/Crashes/ensureinfo-InfiniteMatrix-pid-4788-8ECA3818630D4EFCB5B52AE5F4B4FF17/InfiniteMatrix.log')
+[2024.08.29-19.20.13:778][  0]CrashReportCoreLog: CompressAndSendData compressing 179 bytes ('/home/shaobo/InfiniteMatrixStarterProject/InfiniteMatrixStarter 5.4/Saved/Crashes/ensureinfo-InfiniteMatrix-pid-4788-8ECA3818630D4EFCB5B52AE5F4B4FF17/CrashReportClient.ini')
+[2024.08.29-19.20.13:781][  0]CrashReportCoreLog: Sending HTTP request: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=CrashReporter&AppVersion=5.4.3-34507850%2B%2B%2BUE5%2BRelease-5.4&AppEnvironment=Release&UploadType=crashreports&UserID=3210268a936e4284a41d3f223da7b847-000003e8%7C%7C3210268a936e4284a41d3f223da7b847, Payload size: 42773
+[2024.08.29-19.20.13:944][  0]CrashReportCoreLog: OnProcessRequestComplete(), State=SendingFiles bSucceeded=1
+[2024.08.29-19.20.13:944][  0]CrashReportCoreLog: State change from SendingFiles to SendingFiles
+[2024.08.29-19.20.13:944][  0]CrashReportCoreLog: All uploads done
+[2024.08.29-19.20.13:944][  0]CrashReportCoreLog: State change from SendingFiles to Finished
+[2024.08.29-19.20.14:812][  0]CrashReportCoreLog: Final state (Receiver) = Finished
+[2024.08.29-19.20.14:812][  0]CrashReportCoreLog: Final state (Receiver) = Unknown UploadState value
+[2024.08.29-19.20.14:812][  0]LogAnalytics: Display: [CrashReporter.Release] Destroying ET Analytics provider
+[2024.08.29-19.20.14:812][  0]LogAnalytics: Display: [CrashReporter.Release] Ended ET Analytics provider session
+[2024.08.29-19.20.14:812][  0]LogAnalytics: Display: [CrashReporter.Release] Destroyed ET Analytics provider
+[2024.08.29-19.20.14:812][  0]LogCore: Engine exit requested (reason: CrashReportClientApp RequestExit)
+[2024.08.29-19.20.14:812][  0]LogExit: Preparing to exit.
+[2024.08.29-19.20.14:828][  0]LogExit: Object subsystem successfully closed.
+[2024.08.29-19.20.15:329][  0]LogPakFile: Destroying PakPlatformFile
+[2024.08.29-19.20.15:329][  0]LogExit: Exiting.
+[2024.08.29-19.20.15:339][  0]Log file closed, 08/29/24 14:20:15
